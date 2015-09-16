@@ -1,0 +1,39 @@
+{
+  "name": "aspire-dashboard-api",
+  "version": "0.0.0",
+  "description": "API for Aspire Dashboard",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "bluebird": "^2.10.0",
+    "body-parser": "^1.13.3",
+    "clone": "^1.0.2",
+    "debug": "^2.2.0",
+    "express": "^4.13.3",
+    "express-jwt": "^3.1.0",
+    "fs-extra": "^0.24.0",
+    "hiredis": "^0.4.1",
+    "jsonwebtoken": "^5.0.5",
+    "lodash": "^3.10.1",
+    "method-override": "^2.3.5",
+    "moment": "^2.10.6",
+    "node-mandrill": "^1.0.1",
+    "postal": "^1.0.7",
+    "randomstring": "^1.1.0",
+    "redis": "^1.0.0",
+    "sequelize": "^3.8.0",
+    "settings": "^0.1.1",
+    "underscore.string": "^3.2.2",
+    "winston": "^1.0.1"
+  },
+  "scripts": {
+    "start": "server.js"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.10.0",
+    "frisby": "^0.8.5"
+  },
+  "author": "Onebitmedia",
+  "license": "Commercial"
+}
